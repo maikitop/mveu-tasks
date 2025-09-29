@@ -6,9 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = trim($_POST['email'] ?? '');
     $password = trim($_POST['password'] ?? '');
 
-    // Проверяем email
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        // Если email валиден - создаем массив
         $data = [
             'name' => htmlspecialchars($name),
             'email' => htmlspecialchars($email),
