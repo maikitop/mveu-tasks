@@ -9,8 +9,8 @@
     
     <div style="margin: 2rem 0;">
         <h2>Контактная информация:</h2>
-        <p><strong>Адрес:</strong> г. Москва, ул. Примерная, д. 123</p>
-        <p><strong>Телефон:</strong> +7 (495) 123-45-67</p>
+        <p><strong>Адрес:</strong> г. Москва</p>
+        <p><strong>Телефон:</strong> +7 99999999</p>
         <p><strong>Email:</strong> info@example.com</p>
     </div>
 
